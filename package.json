@@ -1,0 +1,27 @@
+{
+  "name": "TypeScript-Study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src",
+    "build": "tsc && node dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongwonnn/TypeScript-Study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongwonnn/TypeScript-Study/issues"
+  },
+  "homepage": "https://github.com/dongwonnn/TypeScript-Study#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.39",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
